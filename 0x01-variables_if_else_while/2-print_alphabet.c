@@ -9,13 +9,14 @@
  *
  * Return: Always 0 (Success)
  */
-int x;
+char alphabet = 'a';
 int main()
 {
-for(x = 'A'; x <= 'z'; x++)
+while (alphabet <= 'z')
 {
-x = tolower(x);
-putchar(x);
+putchar(alphabet);
+alphabet++;
 }
+putchar('\n');
 return 0;
 }
