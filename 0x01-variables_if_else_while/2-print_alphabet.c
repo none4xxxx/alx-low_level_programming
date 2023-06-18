@@ -9,9 +9,10 @@
  *
  * Return: Always 0 (Success)
  */
+int x;
 int main()
 {
-for(int x = 'A'; x <= 'z'; x++)
+for(x = 'A'; x <= 'z'; x++)
 {
 x = tolower(x);
 putchar(x);
