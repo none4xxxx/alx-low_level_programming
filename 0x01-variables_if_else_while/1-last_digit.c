@@ -16,18 +16,19 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
+int lastDigit;
 lastDigit = number % 10;
 if (lastDigit > 5)
 {
-printf("Last digit of %d", n,"is", lastDigit,"and is greater than 5\n")
+printf("Last digit of %d", n,"is", lastDigit,"and is greater than 5\n");
 }
 if (lastDigit == 0)
 {
-printf("Last digit of %d", n,"is", lastDigit,"and is 0\n")
+printf("Last digit of %d", n,"is", lastDigit,"and is 0\n");
 }
 if (lastDigit < 0)
 {
-printf("Last digit of %d", n,"is", lastDigit,"and is less than 6 and not 0\n")
+printf("Last digit of %d", n,"is", lastDigit,"and is less than 6 and not 0\n");
 }
 return (0);
 }
