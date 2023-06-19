@@ -12,7 +12,7 @@ char a = 'a';
 while (a <= 'z')
 {
 if (a == 'e' || a == 'q'){
-contnue;
+continue;
 }
 else 
 {
