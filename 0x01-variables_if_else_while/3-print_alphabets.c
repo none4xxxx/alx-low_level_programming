@@ -15,9 +15,10 @@ while (a <= 'z')
 putchar(a);
 a++;
 }
-for (b = 'A'; b == 'Z'; b++)
+while (b <= 'Z')
 {
 putchar(b);
+b++;
 }
 putchar('\n');
 return (0);
