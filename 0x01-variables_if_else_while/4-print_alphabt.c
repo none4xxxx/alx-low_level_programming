@@ -14,9 +14,11 @@ while (a <= 'z')
 if (a == 'e' || a == 'q'){
 contnue;
 }
+else 
+{
 putchar(a);
 a++;
-}
+}}
 putchar('\n');
 return (0);
 }
