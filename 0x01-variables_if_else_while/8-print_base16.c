@@ -14,7 +14,7 @@ for (i = 0; i < 10; i++)
 {
 putchar(i + '0');
 }
-while (a <= 'f')
+for (a = 'a'; a < 'g'; a++)
 {
 putchar(a);
 a++;
