@@ -15,7 +15,7 @@ if (a == 'e' || a == 'q')
 {
 continue;
 }
-else 
+else
 {
 putchar(a);
 a++;
