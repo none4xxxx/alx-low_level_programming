@@ -9,9 +9,15 @@
 int main(void)
 {
 int i;
-for (i = 0; i < 16; i++)
+char a;
+for (i = 0; i < 10; i++)
 {
 putchar(i + '0');
+}
+while (a <= 'f')
+{
+putchar(a);
+a++;
 }
 putchar('\n');
 return (0);
