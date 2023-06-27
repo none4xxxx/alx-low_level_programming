@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *updates the value it points to to 98 
+ * reset_to_98 - updates the value of the variable
  *
  * 
  */
